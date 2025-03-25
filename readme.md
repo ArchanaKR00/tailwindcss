@@ -1,9 +1,9 @@
 # colors
 ## tailwindcssassignment
 
-# technologies used
+### technologies used
 
 -HTML
 
-![img](1. Colors/colorscss.png)
+![img](colorcss.png)
 
