@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Colors</title>
+    <style>
+      body {
+        padding: 5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1. Colors With Different Shades -->
+    <!-- https://tailwindcss.com/docs/customizing-colors  -->
+    <div>
+     <div class="text-4xl font-italic text-rose-300 ">HEY</div>
+    <div class="text-3xl font-italic text-rose-400 ">HEY</div>
+    <div class="text-2xl font-italic text-rose-500">HEY</div>
+    <div class="text-1xl font-italic text-rose-600">HEY</div>
+    <div class="text-1xl font-italic text-rose-700">HEY</div>
+    </div>
+
+
+
+    <!-- 2. Background Colors -->
+    <!-- https://tailwindcss.com/docs/background-color -->
+    <div><button class="bg-blue-500 m-22  px-6 py-2 rounded-lg">click</button></div>
+ 
+
+
+
+    <!-- Text Underline -->
+    <!-- https://tailwindcss.com/docs/accent-color -->
+   <div> <label>
+      <input type="checkbox" checked />
+      Browser default
+    </label>
+    <label>
+      <input class="accent-pink-500" type="checkbox" checked />
+      Customized
+    </label> </div>
+  
+    <!-- https://tailwindcss.com/docs/text-decoration-style -->
+    <p class="underline decoration-solid">programmers</p>
+    <p class="underline decoration-double">programmers</p>
+    <p class="underline decoration-dotted">programmers</p>
+    <p class="underline decoration-dashed">prgrammers</p>
+    <p class="underline decoration-wavy">programmers</p>
+
+    <!-- Accent color -->
+    <!-- https://tailwindcss.com/docs/accent-color -->
+    <input class="accent-purple-500/25" type="checkbox" checked />checked
+    <input class="accent-purple-500/75" type="checkbox" checked />verify
+
+
+    <!-- Arbitrary colors -->
+    <!-- https://tailwindcss.com/docs/customizing-colors#arbitrary-values -->
+    <div>
+      <div class="bg-[#3b5ab6]">hi</div>
+      <div class="bg-[#b523e8]">hi</div>
+      <div class="bg-[#e823d3]">hi</div>
+      <div class="bg-[#641e16]">hi</div>
+      <div class="bg-[#52be80]">hi</div>
+      <div class="bg-[#7fb3d5]">hi</div>
+      <div class="bg-sky-500/70">hi</div>
+      <div class="bg-sky-500/80">hi</div>
+      <div class="bg-sky-500/90">hi</div>
+      <div class="bg-sky-500/100">hi</div>
+    </div> 
+    <div class="bg-[light-dark(var(--color-white),var(--color-gray-950))]">
+    </div>
+     
+  </body>
+</html>
